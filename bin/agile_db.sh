@@ -12,12 +12,13 @@ USAGE="                                                                 \n
                                                                         \n
     -e  environment name                                                \n
     -t  'code' is only supported type, currently                        \n
-    -l  load database                                                   \n
+    -l  load database (can be used with -d option, to drop then load)   \n
     -d  drop database                                                   \n
                                                                         \n
     Example:                                                            \n
         $0 -e foo -t code -l    # Load database to foo environment      \n
         $0 -e foo -t code -d    # Drop database for foo environment     \n
+
                                                                         \n
 "
 send_usage() {
