@@ -12,12 +12,7 @@ USAGE="                                                                         
     *.the code.domain.com, then use mod_alias to lookup the ServerRoot          \n
     dynamically.                                                                \n
                                                                                 \n
-                                                                                \n
-    Using mod_aliases, for example,                                             \n
-    apache can then locate the directory dynamically                            \n
-                                                                                \n
     $0 <-t code> <-e envornment_name> <-c|-d>                                   \n
-                                                                                \n
                                                                                 \n
     -t  type        type of environment, code is only one currently supported   \n
     -e  env name    the name of your new environment                            \n
